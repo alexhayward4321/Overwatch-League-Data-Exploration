@@ -1,0 +1,49 @@
+	
+    Document with all of the information I want to get from the OWL data I have downloaded.
+    This will often involve replicating or reproducing data that comes up on screen
+    while watching OWL. More sophisticated data science that comes from using machine
+    learning algorithms will follow after I can clearly demonstrate a comfortable
+    understanding of pandas and have rearranged my data in all of the categories that I 
+    will need and/or defined the functions I can use to easily access data of types that
+    I would like.
+
+   	Starting with the manipulations I want to do with the the match stats only,	I would like
+   	to have	a table with the final standings of the league for every year of the league. For
+   	each team, I would also like a summary of their win percentage on each map type at the 
+   	end of the year.
+   	
+   	In fact, now that I have done this, it would be easier if I could make functions to
+   	calculate for me the standings over a given period of time or the map win percentages
+   	over a period of time.
+   	
+   	Another thing I would like to be able to do is find the history between two different
+   	teams. The easiest way to do this is probably manage to select all of the matches between
+   	the two teams, and perform the other functions I have already defined on them.
+   	
+   	Moving onto the player stats, which were what I was really interested in from
+   	the start due to the potential for applying machine learning algorithms, as an easy start     
+   	it would be nice to be able to give a function some data from a given time period (the
+   	function itself will not need to cut the data down for time), then ask for some 
+   	key stats for a particular player from a particular hero name. At some point, it would
+   	be nice to be able to give how one player on a hero ranks against all the other players
+   	on the same hero in particular stats.
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	
+   	I will also need to write output to files for permanent storage and/or find nice ways to
+   	visually represent my data.
+   	
+   	I plan to have all functions organised such that you specify the time
+   	period over which you want a function to do an operation before you
+   	insert it into that fuction by using functions that you have written
+   	specialised for this truncating of data.
+   	
+   	In essence, what I am creating here is an extremely basic API (with no
+   	plans for defining any classes, but maybe I can do that later if I feel 
+   	like it) for the very specific purpose of getting data that I want about
+   	the Overwatch league.
